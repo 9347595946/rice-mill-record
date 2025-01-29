@@ -31,7 +31,7 @@ function App() {
             { id: 'storage', icon: <Warehouse />, label: 'Mill Storage' },
             { id: 'entry', icon: <Users />, label: 'Farmer Entry' },
             { id: 'history', icon: <History />, label: 'Transactions' },
-            { id: 'analytics', icon: <BarChart3 />, label: 'Analytics' },
+            { id: 'analytics', icon: <BarChart3 />, label: 'Calculation' },
           ].map((tab) => (
             <button
               key={tab.id}
